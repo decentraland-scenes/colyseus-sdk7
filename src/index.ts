@@ -1,7 +1,7 @@
 import { executeTask } from '@dcl/sdk/ecs'
 import './polyfill'
 
-import { Client } from 'colyseus.js/decentraland'
+import { Client } from 'colyseus.js'
 const ENDPOINT = 'wss://your-colyeus-endpoint:8000'
 
 executeTask(async () => {
